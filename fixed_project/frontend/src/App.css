@@ -1,0 +1,30 @@
+/* FULL PAGE BACKGROUND */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+  background-image: url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* DARK OVERLAY */
+.app-container {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* CARD STYLE */
+.card-style {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* HEADINGS */
+h2 {
+  color: white;
+  text-align: center;
+}
